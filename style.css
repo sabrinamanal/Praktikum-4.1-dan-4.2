@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 300px;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    padding: 35px;
+}
+
+.column.profile{
+    width: 25%;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    float: left; 
+    margin-left: 10px;
+}
+
+.gambar {
+    margin-left: 10px;
+}
+
+.attachment {
+    float: right; 
+    margin-left: 20px;
+}
